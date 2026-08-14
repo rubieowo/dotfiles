@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# Load Pywal variables
+source "$HOME/.cache/wal/colors.sh"
+
+# Update your CWM window borders
+sed -i "s/^color activeborder.*/color activeborder $color1/" ~/.cwmrc
+sed -i "s/^color inactiveborder.*/color inactiveborder $color0/" ~/.cwmrc
+cwm -c ~/.cwmrc 2>/dev/null

@@ -1,0 +1,43 @@
+[font] 
+size = 12.5
+
+[font.offset]
+x = 1
+y = 7
+
+[font.normal]
+family = "Iosevka NF"
+style = "Regular"
+
+
+[font.bold]
+family = "Iosevka NF"
+style = "Bold"
+
+[window]
+opacity = 0.85
+blur = true
+decorations = "none"
+
+[window.padding]
+x = 15
+y = 15
+
+[colors.primary]
+background = '#332332'
+foreground = '#FFFFFF'
+
+[colors.normal]
+black = '#130718'
+red = '#CF6A84'
+green = '#A8E6CF'
+yellow = '#FFD3B6'
+blue = '#8EA4D2'
+magenta = '#B36D85'
+cyan = '#98D7C2'
+white = '#E6C7C2'
+
+
+[terminal.shell]
+program = "/bin/zsh"
+args = ["--login"]

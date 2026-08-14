@@ -1,0 +1,60 @@
+unbind-key all
+
+bind-key 4-space "rofi -show drun"
+
+bind-key M-l window-hide
+bind-key M-p menu-window
+
+bind-key 4-Return alacritty
+bind-key 4-f firefox
+bind-key 4-q window-close
+bind-key 4-z window-maximize
+bind-key 4-x window-fullscreen
+
+bind-key 4S-Up window-vmaximize
+bind-key 4S-Right window-hmaximize
+
+bind-key 4S-k window-move-up-big
+bind-key 4S-j window-move-down-big
+bind-key 4S-l window-move-right-big
+bind-key 4S-h window-move-left-big
+
+bind-key 4-k window-move-up
+bind-key 4-j window-move-down
+bind-key 4-l window-move-right
+bind-key 4-h window-move-left
+
+bind-key 4M-Up window-snap-up
+bind-key 4M-Down window-snap-down
+bind-key 4M-Right window-snap-right
+bind-key 4M-Left window-snap-left
+
+bind-key C4-k  window-resize-up
+bind-key C4-j window-resize-down
+bind-key C4-l window-resize-right
+bind-key C4-h window-resize-left
+
+bind-key C4S-k window-resize-up-big
+bind-key C4S-j window-resize-down-big
+bind-key C4S-l window-resize-right-big
+bind-key C4S-h window-resize-left-big
+
+bind-key M-Tab window-cycle
+bind-key MS-Tab window-rcycle
+
+bind-key M-1 group-only-1
+bind-key M-2 group-only-2
+bind-key M-3 group-only-3
+bind-key M-4 group-only-4
+
+bind-key MS-1 window-movetogroup-1
+bind-key MS-2 window-movetogroup-2
+bind-key MS-3 window-movetogroup-3
+bind-key MS-4 window-movetogroup-4
+
+
+
+
+
+
+ignore polybar
